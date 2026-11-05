@@ -12,8 +12,11 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.example.mvvm.viewmodel.SiswaViewModel
+import com.example.mvvm.model.DataJK.JenisK
+import com.example.mvvm.view.FormSiswa
+import com.example.mvvm.view.TampilSiswa
 
+import com.example.mvvm.viewmodel.SiswaViewModel
 enum class Navigasi {
     Formulir,
     Detail
